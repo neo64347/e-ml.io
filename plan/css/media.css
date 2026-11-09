@@ -14,3 +14,16 @@
         width: 74.86211111%;
     }
 }
+/* Newsletter / challenge sign-up form: full width on small screens */
+@media (max-width: 580px) {
+    section .wrap div.form,
+    section .wrap div.form #mc_embed_signup,
+    section .wrap div.form #mc_embed_signup form { width: 100%; max-width: 420px; }
+    section .wrap div.form input[type="email"] {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 18px;
+        padding: 12px 14px;
+    }
+    section .wrap div.form input[type="submit"] { width: 100%; }
+}

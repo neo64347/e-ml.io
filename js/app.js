@@ -1,8 +1,14 @@
 //open close list
 const header = document.getElementsByTagName('header')[0]
 const img = header.getElementsByTagName('img')[0]
+// Logo goes to the site home. Resolved from this script's URL so it works on
+// GitHub Pages (/e-ml.io/) and locally, from both the root and subfolders.
+const siteRoot = document.currentScript
+    ? document.currentScript.src.replace(/js\/app\.js.*$/, '')
+    : new URL('./', window.location.href).href
+img.style.cursor = 'pointer'
 img.addEventListener('click', function(){
-    window.location.href = '/index.html'
+    window.location.href = siteRoot + 'index.html'
 })
 document.getElementById('open-list').addEventListener('click',function(){
     document.getElementById('nav-bar').style.left = '0'
