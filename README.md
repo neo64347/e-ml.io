@@ -9,8 +9,8 @@ A responsive health-education website with articles on health topics, healthy-ea
 
 | | |
 |---|---|
-| ![Screenshot](docs/e-ml1.jpg) | ![Screenshot](docs/e-ml2.jpg) |
-| ![Screenshot](docs/e-ml3.jpg) | ![Screenshot](docs/e-ml4.jpg) |
+| ![Screenshot](screenshots/e-ml1.jpg) | ![Screenshot](screenshots/e-ml2.jpg) |
+| ![Screenshot](screenshots/e-ml3.jpg) | ![Screenshot](screenshots/e-ml4.jpg) |
 
 ## Sections
 | Section | Folder | Examples |
